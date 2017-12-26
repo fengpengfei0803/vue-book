@@ -23,5 +23,3 @@ npm install axios vuex bootstrap
 - /page?offset=5
 - 后台返回还要告诉前端是否有更多的数据 hasMore:false
 
-
-## coding split 代码分割
