@@ -4,7 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
-function resolve (dir) { // src
+function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -24,7 +24,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src'), // 指向的是src的绝对路径
+      '@': resolve('src'),
     }
   },
   module: {

@@ -1,14 +1,12 @@
 <template>
-  <div>
-   collect
-  </div>
+    <div>
+      collect
+    </div>
 </template>
 <script>
     export default {
-        data(){
-            return {msg: 'hello'}
-        },
-        created(){
+        data() {
+            return {}
         },
         methods: {},
         computed: {},
